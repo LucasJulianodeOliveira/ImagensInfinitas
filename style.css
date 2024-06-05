@@ -1,0 +1,23 @@
+body{
+    background-color: darkgrey;
+}
+#placeholder{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    transform: scale(0.5);
+    height: 100vh;
+    
+}
+img{
+    align-self: center;
+    border: 10px solid #fff;
+    margin: 30px;
+    box-shadow: 0 20px 20px black;
+    transition: all ease-in-out 0.5s;
+    border-radius: 10px;
+}
+img:hover{
+    transform: scale(2);
+    cursor: pointer;
+}
