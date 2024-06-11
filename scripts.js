@@ -1,5 +1,5 @@
 let item = 0;
-const max = 9;
+const max = 28;
 
 function proxImagem( img ){
     fetch(`img/${img}.jpg`)
